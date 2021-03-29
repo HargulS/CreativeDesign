@@ -1,0 +1,53 @@
+/* Common Styles */
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Monoton&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: square;
+    outline: none;
+    font-family: 'Bellota Text',cursive;
+    font-weight:400;
+}
+html{
+    /*notes- makes 1rem=10px */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.section-heading{
+    font-size: 10rem;
+    font-weight: bold;
+    text-transform:uppercase;
+    color:black;
+    text-align: center;
+    opacity: .1;
+    text-shadow: 2rem 2rem 2rem 4rem #aaaa;
+}
+.container{
+    width: 100%;
+    overflow-y: hidden;
+}
+.scroll-up-btn{
+    width: 5rem;
+    height: 5rem;
+    background-color:rgba(50, 231, 255, .8);
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .5s;
+}
+.scroll-up-btn:hover{
+    background-color:#32e7ff ;
+}
+
