@@ -4,7 +4,9 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* padding-bottom:8.5rem; */
+    
+    /* justify-content: space-around; */
 }
 
 .customer-wrapper{
