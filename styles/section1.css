@@ -5,18 +5,19 @@
     flex-direction: column;
     justify-content: space-around;
     background-color: #fff;
-    margin-bottom: 8.5rem;
+    margin-bottom: 12.5rem;
 }
 .floating-bg{
     width: 100vw;
     height: 155vw;
+    max-height: 4000px;
     background-color:#e7f0fd;
    
     position: absolute;
-    top: -120vw;
-    /* margin: 0 auto; */
-    left:calc(50% - 50vw);
-    border-radius: 45%;
+    top: -135vw;
+    margin: 0 auto;
+    /* left:calc(50% - 50vw); */
+    border-radius: 50%;
     animation: rotate 30s infinite;
 }
 .floating-bg::before{
@@ -25,9 +26,8 @@
     height: 100%;
     background-color:#87b8f7;
     position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 40%;
+    margin: 0 auto;
+    border-radius: 50%;
     /* notes- animation: name interval duration */
     animation: rotate 30s infinite;
 }
@@ -87,6 +87,7 @@ opacity: .9;
     flex-direction: column;
 }
 .services-heading{
+    
     font-size: 10rem;
     font-weight: bold;
     text-transform:uppercase;
@@ -115,8 +116,8 @@ opacity: .9;
 }
 .services-cards{
    width: 35rem;
-   height: 50rem;
-   /* background-color: #fffef8; */
+   height: 48rem;
+   background-color: #eee;
 
     padding:2rem;
     border-radius: 5px;
@@ -134,27 +135,30 @@ opacity: .9;
 }
 
 .services-cards-heading{
+    padding-top:2rem;
   font-size: 3rem;
   font-weight: 700;
   
   
 }
 .services-cards-description{
+  
     font-size: 2.2rem;
     padding-top:1rem;
     line-height: 2;
     color: #f08e0f;
 }
-
-/* .logo{
-    position: absolute;
-    top:70%;
-    left: 50%;
-    transform:translateX(-50%);
+.fa-users{
+padding-top: 3rem;
+font-size: 6rem;
 }
-.logo i{
-    font-size: 15rem;
-    color:rgba(50, 231, 255, .8);
-    text-shadow:.1rem .1rem .2rem #ddd,-.1rem -.1rem .2rem #ddd;
-} */
+.fa-desktop{
+    padding-top: 3rem;
+font-size: 6rem;
+}
+.fa-registered{
+    padding-top: 3rem;
+font-size: 6rem;
+}
+
 /* End of Section 1 */
